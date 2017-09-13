@@ -50,6 +50,8 @@ public class Enemy extends GameObject implements EntityB {
 			
 			game.setKilled(game.getKilled()+1);
 			
+			
+			
 		}
 		
 		

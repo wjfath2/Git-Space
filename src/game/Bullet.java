@@ -54,6 +54,10 @@ public class Bullet extends GameObject implements EntityA {
 		return y;
 	}
 	
+	public Bullet getBullet() {
+		return this;
+	}
+	
 	public void timer() {
 		long currentTime = System.currentTimeMillis();
 		

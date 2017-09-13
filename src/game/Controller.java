@@ -35,6 +35,10 @@ public class Controller {
 		}
 	}
 	
+	public void removeBullet(int enemy_count, int enemy_killed) {
+		removeEntity(b);
+	}
+	
 	public void tick() {
 		//A Class
 		for(int i = 0; i < ea.size(); i++) {
@@ -46,6 +50,8 @@ public class Controller {
 			entb = eb.get(i);
 			entb.tick();
 		}
+		
+	
 		
 		if (game.getKilled() == game.getCount()) {
 			game.setCount(game.getCount() + 1); 

@@ -26,8 +26,9 @@ public class Main extends Canvas implements Runnable {
 	public static final int scale = 2;
 	public final String title = "Space Game";
 	
-	private int enemy_count = 50;
+	private int enemy_count = 10;
 	private int enemy_killed = 0;
+	
 	
 	private boolean running = false;
 	private Thread thread;
