@@ -1,6 +1,7 @@
 package game;
 
 import java.awt.Graphics;
+
 import java.util.LinkedList;
 import java.util.Random;
 
