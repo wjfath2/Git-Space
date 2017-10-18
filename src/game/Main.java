@@ -152,7 +152,7 @@ public class Main extends Canvas implements Runnable {
 		if (State == STATE.Game) {
 			p.tick();
 			c.tick();
-			System.out.println("Enemy" + enemy_killed);
+			
 		}
 	
 		
